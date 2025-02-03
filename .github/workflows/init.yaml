@@ -1,0 +1,35 @@
+name: initialize
+
+on:
+  create:
+
+jobs:
+  change-docker-compose-env:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+      
+      - name: Get repository name
+        id: repo-name
+        uses: MariachiBear/get-repo-name-action@v1.1.0
+        with:
+          with-owner: 'false'
+
+      - name: change .env file
+        run: |
+          for folder in $(ls)
+          do
+            echo COMPOSE_PROJECT_NAME=is-os-${{ steps.repo-name.outputs.repository-name }} > "$folder"/.env
+          done
+          
+      - name: commit & push changes
+        uses: actions-js/push@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: 'master'
+          message: 'chore: updated .env'

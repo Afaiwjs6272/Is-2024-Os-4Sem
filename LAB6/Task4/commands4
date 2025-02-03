@@ -1,0 +1,3 @@
+driverquery /FO TABLE > Drivers
+copy *.bat commands4
+sort /R Drivers > sortedDrivers

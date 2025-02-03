@@ -1,0 +1,1 @@
+sort /R Drivers > sortedDrivers

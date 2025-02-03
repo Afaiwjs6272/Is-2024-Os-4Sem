@@ -1,0 +1,28 @@
+Сравнение файлов services.txt и NEWSERVICE.TXT
+***** services.txt
+SERVICE_NAME: AppReadiness
+SERVICE_NAME: autotimesvc
+***** NEWSERVICE.TXT
+SERVICE_NAME: AppReadiness
+SERVICE_NAME: AppXSvc
+SERVICE_NAME: autotimesvc
+*****
+
+***** services.txt
+SERVICE_NAME: W32Time
+SERVICE_NAME: WaaSMedicSvc
+SERVICE_NAME: WalletService
+***** NEWSERVICE.TXT
+SERVICE_NAME: W32Time
+SERVICE_NAME: WalletService
+*****
+
+***** services.txt
+SERVICE_NAME: wercplsupport
+SERVICE_NAME: WerSvc
+SERVICE_NAME: WFDSConMgrSvc
+***** NEWSERVICE.TXT
+SERVICE_NAME: wercplsupport
+SERVICE_NAME: WFDSConMgrSvc
+*****
+

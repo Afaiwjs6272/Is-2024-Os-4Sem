@@ -1,0 +1,88 @@
+113
+    PID CMD
+   1598 /lib/systemd/systemd --user
+   1604 (sd-pam)
+   1612 /usr/bin/pipewire
+   1614 /usr/bin/pipewire -c filter-chain.conf
+   1617 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+   1627 /usr/bin/wireplumber
+   1630 /usr/bin/pipewire-pulse
+   1637 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+   1640 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1001/keyring
+   1673 /usr/libexec/xdg-document-portal
+   1675 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+   1682 /usr/libexec/gnome-session-binary --session=ubuntu
+   1686 /usr/libexec/xdg-permission-store
+   1769 /usr/libexec/gcr-ssh-agent /run/user/1001/gcr
+   1770 /usr/libexec/gnome-session-ctl --monitor
+   1775 ssh-agent -D -a /run/user/1001/openssh_agent
+   1782 /usr/libexec/gvfsd
+   1788 /usr/libexec/gvfsd-fuse /run/user/1001/gvfs -f
+   1790 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+   1823 /usr/bin/gnome-shell
+   1824 /usr/libexec/at-spi-bus-launcher --launch-immediately
+   1831 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1001/at-spi/bus
+   1910 /usr/libexec/at-spi2-registryd --use-gnome-session
+   1921 /usr/libexec/gnome-shell-calendar-server
+   1936 /usr/libexec/evolution-source-registry
+   1940 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+   1957 /usr/bin/ibus-daemon --panel disable
+   1958 /usr/libexec/gsd-a11y-settings
+   1969 /usr/libexec/gsd-color
+   1973 /usr/libexec/gsd-datetime
+   1974 /usr/libexec/gsd-housekeeping
+   1978 /usr/libexec/gsd-keyboard
+   1979 /usr/libexec/gsd-media-keys
+   1980 /usr/libexec/gsd-power
+   1981 /usr/libexec/gsd-print-notifications
+   1987 /usr/libexec/gsd-rfkill
+   1989 /usr/libexec/gsd-screensaver-proxy
+   1990 /usr/libexec/gsd-sharing
+   1991 /usr/libexec/gsd-smartcard
+   1992 /usr/libexec/gsd-disk-utility-notify
+   1996 /usr/libexec/gsd-sound
+   1997 /usr/libexec/gsd-wacom
+   2027 /usr/libexec/evolution-data-server/evolution-alarm-notify
+   2069 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+   2089 /usr/libexec/gvfs-udisks2-volume-monitor
+   2129 /usr/libexec/ibus-dconf
+   2132 /usr/libexec/ibus-extension-gtk3
+   2134 /usr/libexec/gsd-printer
+   2136 /usr/libexec/ibus-portal
+   2152 /usr/libexec/gvfs-afc-volume-monitor
+   2169 /usr/libexec/xdg-desktop-portal
+   2176 /usr/libexec/goa-daemon
+   2179 /usr/libexec/gvfs-goa-volume-monitor
+   2196 /usr/libexec/evolution-calendar-factory
+   2197 /usr/libexec/goa-identity-service
+   2202 /usr/libexec/gvfs-mtp-volume-monitor
+   2213 /usr/libexec/gvfs-gphoto2-volume-monitor
+   2233 /usr/libexec/evolution-addressbook-factory
+   2254 /usr/libexec/ibus-engine-simple
+   2277 /usr/libexec/dconf-service
+   2291 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+   2333 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+   2346 /usr/libexec/tracker-miner-fs-3
+   2348 /usr/libexec/xdg-desktop-portal-gnome
+   2411 /usr/libexec/xdg-desktop-portal-gtk
+   2417 /usr/libexec/gvfsd-metadata
+   2742 /usr/bin/update-notifier
+   2795 /usr/bin/nautilus --gapplication-service
+   2836 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+   3654 /snap/firefox/3836/usr/lib/firefox/firefox
+   3836 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -parentBuildID 20240214103141 -prefsLen 32654 -prefMapSize 236602 -appDir /snap/firefox/3836/usr/lib/firefox/browser {7324d6c8-e46f-40ec-b5a3-174c1f80a95e} 3654 true socket
+   3873 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 32795 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {3bf78601-c928-466b-bfec-56e95ba4554c} 3654 true tab
+   3928 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 25731 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {a1bc21ab-c59b-4f7c-8a85-335f70784d40} 3654 true tab
+   3931 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 25731 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {5032a23d-9612-4b06-b706-28e3da2fde56} 3654 true tab
+   3951 /usr/bin/snap userd
+   4049 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 38064 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {f2bf77b2-0c96-4cb8-81ad-c973cf2e03ba} 3654 true tab
+   4231 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -parentBuildID 20240214103141 -sandboxingKind 0 -prefsLen 38118 -prefMapSize 236602 -appDir /snap/firefox/3836/usr/lib/firefox/browser {92c311a6-81e7-4961-8051-133507edf087} 3654 true utility
+   4237 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 31013 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {e4f80cf6-50dc-4b54-8290-196ee5be3744} 3654 true tab
+   4270 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 31013 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {0e989736-492b-483e-bd15-a8d67fcc85bf} 3654 true tab
+   4293 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -childID 8 -isForBrowser -prefsLen 31013 -prefMapSize 236602 -jsInitLen 235124 -parentBuildID 20240214103141 -greomni /snap/firefox/3836/usr/lib/firefox/omni.ja -appomni /snap/firefox/3836/usr/lib/firefox/browser/omni.ja -appDir /snap/firefox/3836/usr/lib/firefox/browser {f211c8a9-fbeb-43b4-bd82-92f1dcff7ca3} 3654 true tab
+   4309 /snap/firefox/3836/usr/lib/firefox/firefox -contentproc -parentBuildID 20240214103141 -prefsLen 38175 -prefMapSize 236602 -appDir /snap/firefox/3836/usr/lib/firefox/browser {5e37550d-f2e1-4964-ac41-5fa423292df4} 3654 true rdd
+  21873 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+  29061 /usr/libexec/gnome-terminal-server
+  29091 bash
+  42553 /bin/bash ./task1.sh
+  42557 ps -u art -o pid,cmd

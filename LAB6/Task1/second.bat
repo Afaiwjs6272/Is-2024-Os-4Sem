@@ -1,0 +1,2 @@
+mkdir TEST
+xcopy * TEST

@@ -1,0 +1,1 @@
+fc /c services.txt newService.txt > difference.txt 
